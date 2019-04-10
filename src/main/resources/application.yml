@@ -1,0 +1,11 @@
+pl:
+  krystianzybala:
+    proxy:
+      baseUrl: http://localhost
+      endpoint: /station/sensors/14
+    stubs:
+      ext: .json
+      target: target/stubs
+    wiremock:
+      record:
+        target: http://api.gios.gov.pl/pjp-api/rest/
